@@ -6,6 +6,8 @@ import {
   Courses,
   SimpleSteps,
   Instructors,
+  Testimonials,
+  Footer,
 } from "./sections";
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
       <Courses />
       <SimpleSteps />
       <Instructors />
+      <Testimonials />
       <Faqs />
+      <Footer />
     </div>
   );
 }

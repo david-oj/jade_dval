@@ -7,11 +7,7 @@ import {
   MdOutlineBuildCircle,
 } from "react-icons/md";
 import folder from "@/assets/icons/folderSupervised_.svg?react";
-import Quote from "@/assets/icons/quote.svg?react";
 import {
-  // uiuxStudent,
-  // frontendStudent,
-  // backendStudent,
   blockchainCourse,
   frontendCourse,
   frontendStudent,
@@ -187,19 +183,12 @@ export const instructors: { name: string; title: string; image: string }[] = [
   },
 ];
 
-type testimonialIcon = {
-  quote: React.ElementType;
-};
-
-type testimonials = {
+export const testimonials: {
   text: string;
   name: string;
   title: string;
   image: string;
-}
-export const testimonials: (testimonials | testimonialIcon)[] = [
-  { quote: Quote },
-
+}[] = [
   {
     name: "Amina B.",
     title: "Junior Frontend Developer",
@@ -209,7 +198,7 @@ export const testimonials: (testimonials | testimonialIcon)[] = [
   {
     name: "Johnson.",
     title: "Backend Engineer Intern",
-    image: backendStudent, 
+    image: backendStudent,
     text: "The backend course broke everything down clearly — from Node.js to working with APIs and databases. I’m now confident building scalable web apps and got hired as a backend intern.",
   },
   {
@@ -217,5 +206,68 @@ export const testimonials: (testimonials | testimonialIcon)[] = [
     title: "UI/UX Designer",
     image: uiuxStudent,
     text: "I always had an eye for design but lacked direction. Learning Figma, wireframing, and design systems gave me the edge to start my own UI/UX portfolio — and a client project!",
+  },
+];
+
+type Footer = {
+  title: string;
+  links: { label: string; href: string }[];
+}[];
+
+export const footerLinks: Footer = [
+  {
+    title: "Courses",
+    links: [
+      {
+        label: "Frontend Development",
+        href: "#courses",
+      },
+      {
+        label: "Backend Development",
+        href: "#courses",
+      },
+      {
+        label: "UI/UX Design",
+        href: "#courses",
+      },
+      {
+        label: "Blockchain Technology",
+        href: "#courses",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      {
+        label: "About Us",
+        href: "#about",
+      },
+      {
+        label: "Faqs",
+        href: "#faqs",
+      },
+      {
+        label: "Contact Us",
+        href: "#enroll-form",
+      },
+      {
+        label: "Privacy Policy",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "Partner",
+    links: [
+      {
+        label: "Our Partners",
+        href: "#",
+      },
+      {
+        label: "Become a partner",
+        href: "#",
+      },
+    ],
   },
 ];

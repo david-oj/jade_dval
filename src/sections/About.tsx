@@ -25,7 +25,7 @@ const About = () => {
                                 key={index}
                                 className="relative flex-1 transform hover:-translate-y-2 hover:shadow-lg transition duration-300 min-w-[322px]"
                             >
-                                {/* background  */}
+                                {/* background gradient */}
                                 <div className="absolute inset-0 -z-10  brand-gradient opacity-10" />
                                 {/* vertical bar */}
                                 <div className="absolute h-full w-2 bg-brand -z-9" />
