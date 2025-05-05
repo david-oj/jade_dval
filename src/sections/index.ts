@@ -1,0 +1,9 @@
+import Faqs from "./Faqs";
+import Header from "./Header";
+import Hero from "./Hero";
+import About from "./About";
+import Courses from "./Courses";
+import SimpleSteps from "./SimpleSteps";
+import Instructors from "./Instructors";
+
+export { Header, Faqs, Hero, About, Courses, SimpleSteps, Instructors };
