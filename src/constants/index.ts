@@ -7,6 +7,10 @@ import {
   MdOutlineBuildCircle,
 } from "react-icons/md";
 import folder from "@/assets/icons/folderSupervised_.svg?react";
+import facebook from "@/assets/icons/facebook.svg?react";
+import twitter from "@/assets/icons/twitter.svg?react";
+import instagram from "@/assets/icons/instagram.svg?react";
+
 import {
   blockchainCourse,
   frontendCourse,
@@ -269,5 +273,27 @@ export const footerLinks: Footer = [
         href: "#",
       },
     ],
+  },
+];
+
+export const socialIcons: {
+  icon: React.ElementType;
+  link: string;
+  alt: string;
+}[] = [
+  {
+    icon: twitter,
+    link: "https://twitter.com",
+    alt: "twitter_logo",
+  },
+  {
+    icon: instagram,
+    link: "https://instagram.com",
+    alt: "instaram_logo",
+  },
+  {
+    icon: facebook,
+    link: " https://facebook.com",
+    alt: " facebook_logo",
   },
 ];
