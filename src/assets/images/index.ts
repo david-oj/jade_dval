@@ -7,8 +7,8 @@ import blockchainCourse from "./blockchain-course.jpg";
 import backendCourse from "./backend-course.jpg";
 import frontendCourse from "./frontend-course.jpg";
 import uiuxCourse from "./uiux-course.jpg";
-import instructor1 from "./instructor_1.jpg";
-import instructor2 from "./instructor_2.jpg";
+import instructor1 from "./instructor_2.jpg";
+import instructor2 from "./instructor_1.jpg";
 import instructor3 from "./instructor_3.jpg";
 import instructor4 from "./instructor_4.jpg";
 

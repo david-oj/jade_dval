@@ -58,7 +58,7 @@ const Header = () => {
             <div className="sidebar absolute z-10 py-3 px-6 top-10 right-0 sm:text-black text-black rounded-lg bg-white/30 backdrop-blur-md border border-brand/30">
               <ul className="flex flex-col gap-2">
                 {navLinks.map((link, index) => (
-                  <li key={index} className="hover:text-brand transition max-md:text-black text-white">
+                  <li key={index} className="hover:text-brand transition-all max-md:text-black text-white">
                     <a href={link.path}> {link.label} </a>
                   </li>
                 ))}
@@ -68,7 +68,7 @@ const Header = () => {
                   outline
                   borderColor="brand"
                   children="Partner"
-                  className="px-2 py-1 text-white hover:border-brand hover:text-white"
+                  className="px-2 py-1 sm:text-white hover:text-brand"
                 />
                 <Button
                   children="Enroll"

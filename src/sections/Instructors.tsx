@@ -9,8 +9,8 @@ const Instructors = () => {
       </p>
       <div className=" mt-10  flex lg:px-26 px-17 flex-wrap gap-8 w-full justify-between max-sm:justify-center">
         {instructors.map((instructor, idx) => (
-          <div className=" max-w-[250px] min-w-[200px] flex-1" key={idx}>
-            <div className="h-[300px] relative">
+          <div className=" lg:max-w-[250px] max-w-[200px] lg:min-w-[200px] min-w-[190px] flex-1" key={idx}>
+            <div className="lg:h-[300px] h-[250px] relative">
               {/* background black frame */}
               <div className="absolute -inset-2.5 -z-10 bg-black" />
               <img

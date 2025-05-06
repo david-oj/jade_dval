@@ -23,7 +23,7 @@ const Footer = () => {
           {footerLinks.map((footer, idx) => (
             <div className="flex flex-col min-w-[108px] flex-1" key={idx}>
               <h3 className="mb-4">{footer.title}</h3>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col sm:gap-4 gap-2">
                 {footer.links.map((link, idx) => (
                   <ul key={idx}>
                     <li className="hover:text-brand/40 transition-all">
