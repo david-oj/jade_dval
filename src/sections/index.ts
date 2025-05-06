@@ -7,6 +7,7 @@ import SimpleSteps from "./SimpleSteps";
 import Instructors from "./Instructors";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
+import EnrollForm from "./EnrollForm";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   Instructors,
   Testimonials,
   Footer,
+  EnrollForm,
 };

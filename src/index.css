@@ -31,6 +31,14 @@
     @apply font-poppins text-base
   }
 
+  input{
+    @apply font-poppins text-sm
+  }
+
+  label {
+    @apply md:text-lg font-semibold font-montserrat 
+  }
+
   li {
     @apply font-poppins text-base
   }
@@ -94,6 +102,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  /* @apply font-poppins; */
   --brand: #11DAC2;
   --accent: #229E90;
   --base: #ffffff;

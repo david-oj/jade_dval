@@ -8,6 +8,7 @@ import {
   Instructors,
   Testimonials,
   Footer,
+  EnrollForm,
 } from "./sections";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <SimpleSteps />
       <Instructors />
       <Testimonials />
+      <EnrollForm />
       <Faqs />
       <Footer />
     </div>
