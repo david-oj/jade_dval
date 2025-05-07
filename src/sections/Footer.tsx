@@ -3,8 +3,8 @@ import { logo } from "@/assets/images";
 
 const Footer = () => {
   return (
-    <section className="mb-4 section-mx section-px">
-      <div className="bg-accent sm:px-12 px-6 py-4 rounded-[40px]">
+    <section className="md:mb-4 md:px-8 section-mx">
+      <div className="bg-accent sm:px-12 px-6 py-4 md:rounded-[40px]">
         <div className="sm:my-14 my-6 flex flex-wrap justify-center gap-4 sm:gap-8 text-white">
           <div className="flex-1">
             <img

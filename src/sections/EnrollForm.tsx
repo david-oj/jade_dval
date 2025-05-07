@@ -2,7 +2,7 @@ import Button from "@/components/Button"
 
 const EnrollForm = () => {
   return (
-    <section className="section-my section-mx section-px">
+    <section id="enrollForm" className="section-my section-mx section-px">
       <div className="flex max-w-[1100px] sm:p-20 m-auto flex-col items-center shadow-md">
         <h2>
           Enroll <span className="text-brand">Now!</span>
@@ -10,7 +10,7 @@ const EnrollForm = () => {
         <p className="max-w-lg text-center mt-4">Join thousands of successful students who have transformed 
         their careers with our training programs.</p>
 
-        <form className="flex flex-col md:gap-8 gap-4 sm:my-14 my-8 w-full max-md:max-w-lg">
+        <form className="flex flex-col max-sm:px-4 md:gap-8 gap-4 sm:my-14 my-8 w-full max-md:max-w-lg">
             <div className="flex md:flex-row flex-col gap-4 justify-between">
                 <div className="flex flex-1 flex-col gap-2 max-w-lg">
                     <label htmlFor="firstName">First Name:</label>
@@ -49,7 +49,7 @@ const EnrollForm = () => {
                 <label htmlFor="emailConsent" className="font-poppins sm:text-base text-sm font-normal ">I agree to receive emails about TechSkillsPro courses, promotions, and updates. You can unsubscribe at any time.</label>
             </div>
             
-            <Button type="submit" children="Enroll" borderRadius="border-none" className="text-white py-2 font-semibold hover:bg-white hover:text-brand mt-4 transotion-all duration-200" />
+            <Button type="submit" children="Enroll" borderRadius="border-none" className="text-white py-2 font-semibold opacity-70 hover:opacity-100 active:bg-white active:text-brand mt-4 transotion-all" />
         </form>
       </div>
     </section>

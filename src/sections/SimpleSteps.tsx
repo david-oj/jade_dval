@@ -32,7 +32,7 @@ const SimpleSteps = () => {
                 );
               })}
             </div>
-            <Button children="Enroll Now" borderRadius="rounded-none" className="text-white mt-4 w-fit hover:bg-white hover:text-brand duration-200 font-semibold" />
+            <Button children="Enroll Now" borderRadius="rounded-none" className="text-white mt-4 w-fit active:scale-95 duration-200 font-semibold" />
           </div>
         </div>
       </div>

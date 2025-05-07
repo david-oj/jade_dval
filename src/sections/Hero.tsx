@@ -17,8 +17,8 @@ const Hero = () => {
             you job-ready — faster.
           </p>
           <div className="flex md:gap-4 gap-2 md:flex-row ">
-            <Button className="text-white min-w-[126px] text-base font-semibold py-2 transition-all duration-200 hover:opacity-100  opacity-50"> View Courses</Button>
-            <Button className="text-white min-w-[126px] text-base font-semibold py-2.5 transition-all duration-200 hover:opacity-100  opacity-50">Partner </Button>
+            <Button className="text-white min-w-[126px] text-base active:scale-90 font-semibold py-2 transition-all duration-200 hover:opacity-100  opacity-50"> View Courses</Button>
+            <Button className="text-white min-w-[126px] text-base active:scale-90 font-semibold py-2.5 transition-all duration-200 hover:opacity-100  opacity-50">Partner </Button>
           </div>
         </div>
 

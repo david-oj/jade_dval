@@ -36,12 +36,12 @@ const Header = () => {
             outline
             borderColor="brand"
             children="Partner with Us"
-            className="px-2 py-1.5 text-white transition-all hover:border-brand "
+            className="px-2 py-1.5 text-white active:scale-95 transition-all hover:border-brand "
           />
           <Button
             children="Enroll"
             bgColor="bg-white"
-            className="font-semibold px-4 py-1.5 text-brand transition-all hover:text-white hover:bg-brand"
+            className="font-semibold px-4 py-1.5 text-brand active:scale-95 transition-all hover:text-white hover:bg-brand"
           />
         </div>
 
@@ -68,11 +68,11 @@ const Header = () => {
                   outline
                   borderColor="brand"
                   children="Partner"
-                  className="px-2 py-1 sm:text-white hover:text-brand"
+                  className="px-2 py-1 active:scale-95 sm:text-white hover:text-brand"
                 />
                 <Button
                   children="Enroll"
-                  className="font-semibold py-1 px-2 hover:bg-white text-white hover:text-brand transition-all "
+                  className="font-semibold py-1 px-2 active:scale-95 hover:bg-white text-white hover:text-brand transition-all "
                 />
               </div>
             </div>
