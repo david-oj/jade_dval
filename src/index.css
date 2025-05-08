@@ -102,7 +102,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* @apply font-poppins; */
+  scroll-behavior: smooth;
   --brand: #11DAC2;
   --accent: #229E90;
   --base: #ffffff;
