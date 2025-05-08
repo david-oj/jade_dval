@@ -32,7 +32,13 @@ const SimpleSteps = () => {
                 );
               })}
             </div>
-            <Button children="Enroll Now" borderRadius="rounded-none" className="text-white mt-4 w-fit active:scale-95 duration-200 font-semibold" />
+            <a href="#enrollForm">
+              <Button
+                children="Enroll Now"
+                borderRadius="rounded-none"
+                className="text-white mt-4 w-fit active:bg-white active:text-brand transition-all font-semibold"
+              />
+            </a>
           </div>
         </div>
       </div>

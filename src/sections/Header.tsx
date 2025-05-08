@@ -19,7 +19,7 @@ const Header = () => {
             height={43}
           />
         </div>
-        
+
         {/* desktop view nav */}
         <div className="ml-auto md:flex hidden gap-4 justify-center items-center">
           <ul className="flex gap-4 max-[1140px]:hidden">
@@ -58,22 +58,29 @@ const Header = () => {
             <div className="sidebar absolute z-10 py-3 px-6 top-10 right-0 sm:text-black text-black rounded-lg bg-white/30 backdrop-blur-md border border-brand/30">
               <ul className="flex flex-col gap-2">
                 {navLinks.map((link, index) => (
-                  <li key={index} className="hover:text-brand transition-all max-md:text-black text-white">
+                  <li
+                    key={index}
+                    className="hover:text-brand transition-all max-md:text-black text-white"
+                  >
                     <a href={link.path}> {link.label} </a>
                   </li>
                 ))}
               </ul>
               <div className="flex flex-col gap-2 mt-4">
-                <Button
-                  outline
-                  borderColor="brand"
-                  children="Partner"
-                  className="px-2 py-1 active:scale-95 sm:text-white hover:text-brand"
-                />
-                <Button
-                  children="Enroll"
-                  className="font-semibold py-1 px-2 active:scale-95 hover:bg-white text-white hover:text-brand transition-all "
-                />
+                <a href="" className="">
+                  <Button
+                    outline
+                    borderColor="brand"
+                    children="Partner"
+                    className="px-2 py-1 active:scale-95 sm:text-white hover:text-brand"
+                  />
+                </a>
+                <a href="#enrollForm" className="">
+                  <Button
+                    children="Enroll"
+                    className="font-semibold py-1 px-2 active:scale-95 hover:bg-white text-white hover:text-brand transition-all w-full "
+                  />
+                </a>
               </div>
             </div>
           )}
